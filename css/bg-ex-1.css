@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+/* 상단 영역 */
+.bg{
+    margin: 0 auto;
+    text-align: center;
+}
+.bg h1{
+    line-height: 100px;
+}
+.bg p{
+    line-height: 70px;
+}
+#bg{
+    /* width: 1200px; */
+    height: 400px;
+    background: url("../images/fashion-style.jpg") no-repeat center;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    gap: 20px;
+    color: #fff;
+}
+#bg button{
+    width: 120px;
+    height: 50px;
+    border:none;
+    margin: 0 auto;
+}
+/* 메인 텍스트 박스 전체 영역 */
+.bg-text-box{
+    position: relative;
+    margin: 0 auto;
+    width: 370px;
+    height: 360px;
+    font-size: 14px;
+}
+.bg-text-box h3{
+    line-height: 30px;
+}
+/* 메인 텍스트 박스 - 1 */
+.bg-text-box .box1{
+    position: absolute;
+    top: -40px;
+    left: 0;
+    margin: 20px;
+    padding: 10px 20px; 
+    background-color: rgb(255, 215, 222);
+}
+/* 메인 텍스트 박스 - 2 */
+.bg-text-box .box2{
+    position: absolute;
+    top: 150px;
+    left: 0;
+    margin: 20px;
+    padding: 10px 20px; 
+    background-color: rgb(255, 215, 222);
+}
+/* 페이지 하단 영역 */
+.bg-bottom{
+    margin-top: 10px;
+    padding: 30px;
+    background-color: #2c0074;
+}
+/* contact us 박스 */
+.bg-input{
+    position: relative;
+    width: 380px;
+    height: 320px;
+    gap: 60px;
+    margin: 0 auto;
+    padding: 20px 20px;
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    color: #333;
+}
+.bg-input input{
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #d3d3d3;
+}
+.bg-input h3{
+    line-height: 20px;
+}
+.input-box{
+    padding: 10px 20px;
+}
+.input-email input , .input-message input{
+    width: 100%;
+}
+.bg-input .name{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+.first-name input{
+    width: 100%;
+}
+.last-name input{
+    width: 100%;
+}
+.input-message input{
+    height: 40px;
+}
+.input-sub{
+    display: flex;
+}
+/* SEND 버튼 */
+.bg-bottom button{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 50px;
+    height: 25px;
+    padding: 3px 5px;
+    margin: 20px 20px 15px 0;
+    border: none;
+    background-color: rgb(168, 68, 168);
+    color: white;
+    font-size: 11px;
+    text-align: center;
+}
